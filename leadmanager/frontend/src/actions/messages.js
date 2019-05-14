@@ -12,6 +12,6 @@ export const createMessage = msg => {
 export const returnErrors = (msg, status) => {
     return {
         type: GET_ERRORS,
-        payload: { msg, statuss }
+        payload: { msg, status }
     }
 }
