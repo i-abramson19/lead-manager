@@ -53,9 +53,9 @@ export const login = (username, password) => dispatch => {
         }).catch(err => {
             dispatch(returnErrors(returnErrors(err.response.data,
                 err.response.status)));
-                dispatch({
-                    type: LOGIN_FAIL
-                });
+            dispatch({
+                type: LOGIN_FAIL
+            });
         });
 }
 

@@ -22,8 +22,7 @@ export class Register extends Component {
       e.preventDefault();
       const { username, email, password, password2 } = this.state;
       if(password !== password2) {
-        pass
-        /*this.props.createMessage({ passwordsNotMatch: 'Passwords do not match' });*/
+        this.props.createMessage({ passwordNotMatch: 'Passwords do not match' });
       } else {
         const newUser = {
           username,
@@ -106,4 +105,4 @@ const mapStateToProps = state => ({
   isAuthenticated: state.auth.isAuthenticated
 });
 
-export default connect(mapStateToProps, {register/*, passwordsNotMatch*/})(Register);
+export default connect(mapStateToProps, {register, createMessage})(Register);
