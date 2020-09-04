@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-alert": "^4.0.4",
