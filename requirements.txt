@@ -4,7 +4,7 @@ cryptography==2.6.1
 Django==2.2
 django-rest-knox==4.0.1
 django-smtp-ssl==1.0
-djangorestframework==3.9.3
+djangorestframework==3.11.2
 pycparser==2.19
 pyOpenSSL==19.0.0
 pytz==2019.1
